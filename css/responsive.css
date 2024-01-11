@@ -1,0 +1,119 @@
+/* --------------------------------------
+	Extra Small devices (min-width: 240)
+   -------------------------------------- */
+
+@media (min-width: 240px) {
+	
+.container {
+    width: 220px;
+}
+
+}
+
+
+/* --------------------------------------
+	Extra Small devices (min-width: 320)
+   -------------------------------------- */
+
+@media (min-width: 320px) {
+	
+.container {
+    width: 300px;
+}
+
+}
+
+
+/* --------------------------------------
+	Extra Small devices (min-width: 480)
+   -------------------------------------- */
+
+@media (min-width: 480px) {
+	
+.container {
+    width: 450px;
+}
+
+}
+
+/* --------------------------------------
+	Extra Small devices (min-width: 640)
+   -------------------------------------- */
+   
+@media (min-width: 576px) {
+	
+.container {
+    width: 540px;
+}
+
+}
+
+
+/* --------------------------------------
+	Extra Small devices (min-width: 640)
+   -------------------------------------- */
+   
+@media (min-width: 640px) {
+	
+.container {
+    width: 600px;
+}
+
+}
+
+  
+/* --------------------------------------
+  Small devices (tablets, 768px and up)
+   -------------------------------------- */
+   
+@media (min-width: 768px) {
+
+.container {
+    width: 720px;
+}
+
+}
+
+
+
+/* --------------------------------------
+	Medium devices (desktops, 992px and up) 
+   -------------------------------------- */
+   
+   
+@media (min-width: 992px) {
+.container {
+    width: 960px;
+}
+  
+}
+
+
+/* --------------------------------------
+	Large devices (large desktops, 1200px and up) 
+   -------------------------------------- */
+
+@media (min-width: 1200px) {
+.container {
+    width: 1170px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,248 @@
+/*
+	Project Name: Social Networking Site
+	Author: Shaifulla Sohag
+	Date: 14/03/2019
+ */
+
+/* ====================================
+	.well
+  ===================================== */
+.heading-top{
+	padding: 0;
+}
+
+.well{
+	background-color: #31B0D5;
+}
+
+.well h1{
+	color: #fff;
+}
+
+/* ====================================
+	.main-left
+  ===================================== */
+
+.main-left{
+	background: -webkit-linear-gradient(left, #31B0D5, #00c6ff);
+    margin: 50px auto;
+    padding: 50px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+/* ====================================
+	.main-right
+  ===================================== */
+.main-right{}
+
+.main-right a.site-logo {
+	display: block;
+	text-align: center;
+	padding: 10px;
+	width: 20%;
+	margin: 0 auto;
+	border: 1px solid cadetblue;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.main-right a.site-logo:hover {
+	background-color : #31B0D5;
+	border: 1px solid #fff;
+	text-decoration: none;
+}
+
+.main-right h2{
+	margin-bottom: 40px;
+}
+
+#signup{
+	width: 60%;
+	border-radius: 30px;
+	display: block;
+	margin-bottom: 10px;
+	margin-left: 110px;
+}
+
+#login{
+	width: 60%;
+	border-radius: 30px;
+	display: block;
+	background-color: #fff;
+	border: 1px solid #31B0D5;
+	color: #31B0D5;
+	margin-left: 110px;
+}
+
+#login:hover{
+	background-color: #31B0D5;
+	color: #fff;
+}
+
+
+/* ==============================
+	Sign Up Page
+   ==============================*/	
+
+.main_content{
+	width: 50%;
+	height: 40%;
+	margin: 10px auto;
+	background-color: #fff;
+	border: 2px solid #e6e6e6;
+	padding: 40px 50px;
+}
+
+.header{
+	border: 0px solid #000;
+	margin-bottom: 5px;
+}
+
+.input-group{
+	margin-bottom: 10px;
+}
+
+form a#have_account {
+	text-decoration: none;
+	color: #187FAB;
+	display: block;
+	margin-bottom: 10px;
+}
+
+#sign_up{
+	width: 60%;
+	border-radius: 30px;
+}
+
+
+/* ==============================
+	Sign In Page
+   ==============================*/	
+
+.overlap-text{
+	position: relative;
+}
+
+form a#forgot_password {
+	position: absolute;
+	text-decoration: none;
+	color: #187FAB;
+	top: 8px;
+	right: 12px;
+	font-size: 14px;
+	font-family: "Overpass Mono" , monospaced;
+}
+
+#sign_in{
+	width: 60%;
+	border-radius: 30px;
+}
+
+
+/* ==============================
+	Profile Page
+   ==============================*/	
+.cover-picture img{
+	height: 400px;
+	width: 100%;
+}
+
+#profile_img {
+	position: absolute;
+	top: 160px;
+	left: 40px;
+}
+
+#profile_img img {
+	width: 180px;
+	height: 180px;
+}
+
+#button_profile {
+	position: absolute;
+	top: 207px;
+	left: 90px;
+	cursor: pointer;
+	transform: translate(-50% , -50%);
+}
+
+form#change_cover{}
+form#change_cover label {
+	margin-bottom: 10px;
+	padding: 7px;
+}
+
+form#change_cover input#select_cover[type="file"]{
+	display: none;
+}
+
+#modify_cover_button{
+	position: absolute;
+	top: 10px;
+	left: 40px;
+}
+
+.profile_img img{
+	width: 180px;
+	height: 185px;
+}
+
+label.select_profile_img{
+	position: relative;
+	top: -43px;
+	cursor: pointer;
+	left: 90px;
+	border-right: 4px;
+	background-color: rgba(0,0,0,0.1);
+	transform: translate(-50% , -50%);
+	padding: 10px;
+	color: #fff;
+}
+
+.profile_img form input#select_profile[type="file"]{
+	display: none;
+}
+
+#description{
+	color: #bbb;
+}
+
+.about_single_user {
+	background-color: #e6e6e6;
+	text-align: center;
+	border-radius: 5px;
+}
+
+/* ====================================
+	Home Page
+  ===================================== */
+form#f{}
+form#f textarea{
+	margin-bottom: 15px;
+}
+
+input#upload_image[type="file"]{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
